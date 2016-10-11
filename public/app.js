@@ -1,7 +1,7 @@
 var socket = io();
 var last_sender = null;
 var avatar_type = 'identicon';
-var avatar_type = 'letter';
+// var avatar_type = 'letter';
 
 function randomUsername() {
 	var text = "";
