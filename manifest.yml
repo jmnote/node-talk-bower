@@ -2,5 +2,7 @@
 applications:
 - name: node-talk
   memory: 512M
-  command: node index.js
+  command: node server.js
   random-route: true
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+
