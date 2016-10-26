@@ -1,7 +1,7 @@
 ---
 applications:
 - name: node-talk
-  memory: 512M
+  memory: 32M
   command: node server.js
   # host: talk
   random-route: true
