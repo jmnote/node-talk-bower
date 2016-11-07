@@ -1,0 +1,29 @@
+{
+  "name": "node-talk",
+  "description": "node-talk by jmnote",
+  "main": "index.js",
+  "authors": [
+    "jmnote"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "chat",
+    "talk",
+    "socket.io",
+    "node.js"
+  ],
+  "homepage": "https://github.com/jmnote/node-talk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "crypto-js": "^3.1.8",
+    "color-hash": "^1.0.3",
+    "identicon.js": "identicon#*"
+  }
+}
